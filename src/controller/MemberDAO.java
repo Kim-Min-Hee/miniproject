@@ -39,6 +39,7 @@ public class MemberDAO {
 		
 		try {
 			pstmt= conn.prepareStatement(sql.toString());
+			System.out.println("MemberDAO get User_ID : "+memberVO.getUSER_ID());
 			pstmt.setString(1, memberVO.getUSER_ID());
 			pstmt.setString(2, memberVO.getUSER_PASSWORD());
 			pstmt.setString(3, memberVO.getUSER_NAME());

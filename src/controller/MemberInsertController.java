@@ -26,6 +26,8 @@ public class MemberInsertController implements Controller {
 			return;
 		}
 		
+		
+		
 		MemberVO member = new MemberVO();
 		member.setUSER_ID(USER_ID);
 		member.setUSER_PASSWORD(USER_PASSWORD);

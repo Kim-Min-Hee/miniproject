@@ -7,7 +7,9 @@
 <title>생성 결과</title>
 </head>
 <body>
-	<h3> ${id} 님 가입이 완료 되었습니다. </h3>
+	<h3> <%=request.getParameter("USER_ID")%> 님 가입이 완료 되었습니다. </h3>
+	
 	<%@ include file="home.jsp" %>
+	
 </body>
 </html>

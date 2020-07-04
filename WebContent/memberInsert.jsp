@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action = front.do method="post">
+	<form action = memberInsert.do method="post">
 	<h1>회원가입 페이지</h1>
 	아이디: <input type = "text"name="USER_ID"size="15"><br>
 	비밀번호: <input type= "password"name="USER_PASSWORD"size="15"><br>

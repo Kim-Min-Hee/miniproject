@@ -36,8 +36,8 @@ public class MemberInsertController implements Controller {
 		MemberService service = MemberService.getInstance();
 		service.memberInsert(member);
 		
-		request.setAttribute("USER_ID", USER_ID);
-		HttpUtil.forward(request, response, "/result/memberInsertOutput.jsp");
+		//request.setAttribute("USER_ID", USER_ID);
+		HttpUtil.forward(request, response, "/memberInsertOutput.jsp");
 		System.out.println("22222");
 
 	}

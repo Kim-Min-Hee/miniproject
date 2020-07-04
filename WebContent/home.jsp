@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%= session.getAttribute("id") %>님 환영 합니다.
+	<%=request.getParameter("USER_ID")%>님 환영 합니다.
 	
 </body>
 </html>

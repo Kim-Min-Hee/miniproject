@@ -1,18 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset= UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
 	<form action = memberInsert.do method="post">
-	<h1>È¸¿ø°¡ÀÔ ÆäÀÌÁö</h1>
-	¾ÆÀÌµð: <input type = "text"name="USER_ID"size="15"><br>
-	ºñ¹Ð¹øÈ£: <input type= "password"name="USER_PASSWORD"size="15"><br>
-	ÀÌ¸§: <input type= "text" name="USER_NAME" size="10"><br>
-	<input type = "submit"name="Àü¼Û">
+	<h1>íšŒì›ê°€ìž… íŽ˜ì´ì§€</h1>
+	<input type="hidden"name="num" ><br>
+	ì•„ì´ë””: <input type = "text"name="USER_ID"size="15"><br>
+	ë¹„ë°€ë²ˆí˜¸: <input type= "password"name="USER_PASSWORD"size="15"><br>
+	ì´ë¦„: <input type= "text" name="USER_NAME" size="10"><br>
+	<input type = "submit"name="ì „ì†¡">
 	</form>
 </body>
 </html>

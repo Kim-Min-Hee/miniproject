@@ -1,16 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>È¸¿øÁ¤º¸°ü¸®</title>
+<title>íšŒì›ì •ë³´ê´€ë¦¬</title>
 </head>
 <body>
-	<a href = "memberInsert.jsp">È¸¿øÁ¤º¸ »ý¼º</a><p>
-	<a href = "memberSeach.jsp">È¸¿øÁ¤º¸ °Ë»ö</a><p>
-	<a href = "memberUpdate.jsp">È¸¿øÁ¤º¸ ¼öÁ¤</a><p>
-	<a href = "memberDelete.jsp">È¸¿øÁ¤º¸ »èÁ¦</a><p>
-	<a href=" memberList.do">¸ðµç È¸¿øÁ¤º¸ º¸±â</a>
-</body><a href = "/dev/index.jsp">Ã¹ È­¸éÀ¸·Î ÀÌµ¿</a>
+	<a href = "memberInsert.jsp">íšŒì›ì •ë³´ ìƒì„±</a><p>
+	<a href = "memberSeach.jsp">íšŒì›ì •ë³´ ê²€ìƒ‰</a><p>
+	<a href = "memberUpdate.jsp">íšŒì›ì •ë³´ ìˆ˜ì •</a><p>
+	<a href = "memberDelete.jsp">íšŒì›ì •ë³´ ì‚­ì œ</a><p>
+	<a href=" memberList.do">ëª¨ë“  íšŒì›ì •ë³´ ë³´ê¸°</a>
+</body><a href = "/dev/index.jsp">ì²« í™”ë©´ìœ¼ë¡œ ì´ë™</a>
 </html>
